@@ -8,7 +8,7 @@ Este repositório contém o projeto desenvolvido durante o curso **HTML5 + CSS3 
 
 📆 **Ano:** 2018  
 👨‍🏫 **Instrutor:** Gustavo Guanabara  
-🎯 **Objetivo:** Aprender os fundamentos de HTML5, CSS3 e JavaScript criando um site completo do projeto fictício "Glass".  
+🎯 **Objetivo:** Aprender os fundamentos de HTML5, CSS3 e JavaScript criando um site completo do projeto fictício "Google Glass".  
 
 Durante o curso, aprendi como estruturar páginas, estilizar interfaces, integrar scripts e muito mais! Este projeto segue fielmente o proposto no curso, sem alterações significativas.
 
