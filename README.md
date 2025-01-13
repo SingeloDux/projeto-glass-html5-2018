@@ -9,18 +9,15 @@ Este repositório contém o projeto desenvolvido durante o curso **HTML5 + CSS3 
 O projeto está disponível no GitHub Pages para acesso rápido:  
 👉 [Acesse aqui o site do projeto](https://singelodux.github.io/projeto-glass-html5-2018/)
 
-### 🗂️ Releases
-Você também pode baixar uma versão específica do projeto na aba **Releases** do repositório.
-
 ---
 
 ## 🖼️ Imagens e Capturas de Tela
 
 1. Página Inicial 
-   ![Placeholder da Página Inicial](#) 
+   ![Placeholder da Página Inicial](./_interface/home.jpg) 
 
 2. Galeria de Fotos 
-   ![Placeholder da Galeria de Fotos](#)  
+   ![Placeholder da Galeria de Fotos](./_interface/galeria.jpg)  
 
 ---
 
