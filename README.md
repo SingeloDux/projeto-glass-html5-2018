@@ -56,7 +56,7 @@ projeto-glass-html5/
 
 ### 🔗 GitHub Pages
 O projeto está disponível no GitHub Pages para acesso rápido:  
-👉 [Acesse aqui o site do projeto](#)
+👉 [Acesse aqui o site do projeto](https://singelodux.github.io/projeto-glass-html5-2018/)
 
 ### 🗂️ Releases
 Você também pode baixar uma versão específica do projeto na aba **Releases** do repositório.
