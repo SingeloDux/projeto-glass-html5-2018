@@ -4,25 +4,23 @@ Este repositório contém o projeto desenvolvido durante o curso **HTML5 + CSS3 
 
 ---
 
-## 📝 Sobre o Curso
+## 🎯 Como Acessar
 
-📆 **Ano:** 2018  
-👨‍🏫 **Instrutor:** Gustavo Guanabara  
-🎯 **Objetivo:** Aprender os fundamentos de HTML5, CSS3 e JavaScript criando um site completo do projeto fictício "Google Glass".  
+O projeto está disponível no GitHub Pages para acesso rápido:  
+👉 [Acesse aqui o site do projeto](https://singelodux.github.io/projeto-glass-html5-2018/)
 
-Durante o curso, aprendi como estruturar páginas, estilizar interfaces, integrar scripts e muito mais! Este projeto segue fielmente o proposto no curso, sem alterações significativas.
+### 🗂️ Releases
+Você também pode baixar uma versão específica do projeto na aba **Releases** do repositório.
 
 ---
 
-## 🚀 O que Aprendi
+## 🖼️ Imagens e Capturas de Tela
 
-Alguns tópicos abordados no curso:  
-- Estrutura básica de uma página HTML5 🏗️  
-- Formatação e estilização com CSS3 🎨  
-- Efeitos visuais e semântica em HTML5 🔍  
-- Introdução ao JavaScript e sua integração com HTML5 🛠️  
-- Criação de tabelas, formulários e álbuns de fotos 📸  
-- Reprodução de áudio e vídeo em HTML5 🎥🎵  
+1. Página Inicial 
+   ![Placeholder da Página Inicial](#) 
+
+2. Galeria de Fotos 
+   ![Placeholder da Galeria de Fotos](#)  
 
 ---
 
@@ -52,27 +50,23 @@ projeto-glass-html5/
 
 ---
 
-## 🎯 Como Acessar
+## 📝 Sobre o Curso
 
-### 🔗 GitHub Pages
-O projeto está disponível no GitHub Pages para acesso rápido:  
-👉 [Acesse aqui o site do projeto](https://singelodux.github.io/projeto-glass-html5-2018/)
-
-### 🗂️ Releases
-Você também pode baixar uma versão específica do projeto na aba **Releases** do repositório.
+📆 **Ano:** 2018  
+👨‍🏫 **Instrutor:** Gustavo Guanabara  
+🎯 **Objetivo:** Aprender os fundamentos de HTML5, CSS3 e JavaScript criando um site completo do projeto fictício "Google Glass". Durante o curso, aprendi como estruturar páginas, estilizar interfaces, integrar scripts e muito mais! Este projeto segue fielmente o proposto no curso, sem alterações significativas.
 
 ---
 
-## 🖼️ Imagens e Capturas de Tela
+## 🚀 O que Aprendi
 
-1. Página Inicial 
-   ![Placeholder da Página Inicial](#) 
-
-2. Galeria de Fotos 
-   ![Placeholder da Galeria de Fotos](#)  
-
-3. Especificações técnicas
-   ![Placeholder da Seção de Especificações](#)  
+Alguns tópicos abordados no curso:  
+- Estrutura básica de uma página HTML5 🏗️  
+- Formatação e estilização com CSS3 🎨  
+- Efeitos visuais e semântica em HTML5 🔍  
+- Introdução ao JavaScript e sua integração com HTML5 🛠️  
+- Criação de tabelas, formulários e álbuns de fotos 📸  
+- Reprodução de áudio e vídeo em HTML5 🎥🎵  
 
 ---
 

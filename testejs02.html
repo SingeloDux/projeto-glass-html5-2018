@@ -9,15 +9,15 @@
         function mudaLampada(tipo){
             
             if(tipo == 0){
-                lampada = "_imagens/lampada-apagada.jpg";
+                lampada = "./_imagens/lampada-apagada.jpg";
             }
             
             if(tipo == 1){
-                lampada = "_imagens/lampada-acesa.jpg";
+                lampada = "./_imagens/lampada-acesa.jpg";
             }
             
             if(tipo == 2){
-                lampada = "_imagens/lampada-quebrada.jpg";
+                lampada = "./_imagens/lampada-quebrada.jpg";
 
             }
             
@@ -34,6 +34,6 @@
 </head>
     <h1>Acenda a lamapada</h1>
     
-    <img src="_imagens/lampada-apagada.jpg" id="luz" onmouseout="mudaLampada(0)" onmousemove="mudaLampada(1)" onclick="mudaLampada(2)">
+    <img src="./_imagens/lampada-apagada.jpg" id="luz" onmouseout="mudaLampada(0)" onmousemove="mudaLampada(1)" onclick="mudaLampada(2)">
 
 </html>
