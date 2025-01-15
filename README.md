@@ -14,10 +14,10 @@ O projeto está disponível no GitHub Pages para acesso rápido:
 ## 🖼️ Imagens e Capturas de Tela
 
 1. Página Inicial 
-   ![Placeholder da Página Inicial](./_interface/home.jpg) 
+   ![Placeholder da Página Inicial](./interface/home.jpg) 
 
 2. Galeria de Fotos 
-   ![Placeholder da Galeria de Fotos](./_interface/galeria.jpg)  
+   ![Placeholder da Galeria de Fotos](./interface/galeria.jpg)  
 
 ---
 
