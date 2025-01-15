@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Tudo Sobre Google Glass</title>
-    <link rel="stylesheet" href="./_css/estilo.css"/>
-    <link rel="stylesheet" href="./_css/form.css"/>
-    <script language="javascript" src="./_javascript/funcoes.js"></script>
+    <link rel="stylesheet" href="css/estilo.css"/>
+    <link rel="stylesheet" href="css/form.css"/>
+    <script language="javascript" src="javascript/funcoes.js"></script>
     <script>
         function calc_total(){
             var qtd = parseInt(document.getElementById('cQtd').value);
@@ -22,16 +22,16 @@
     <h1>Google Glass</h1>
     <h2>A revolução do Google está chegando</h2>
     </hgroup>
-<img id="icone" src="./_imagens/contato.png"/>    
+<img id="icone" src="imagens/contato.png"/>    
 
     <nav id="menu">
     <h1>Menu Principal</h1>
     <ul>
-        <li onmouseover="mudaFoto('./_imagens/home.png')" onmouseout="mudaFoto('./_imagens/contato.png') " ><a href="index.html">Home</a></li>
-        <li onmouseover="mudaFoto('./_imagens/especificacoes.png')" onmouseout="mudaFoto('./_imagens/contato.png') " ><a href="specs.html">Especificações</a></li>
-        <li onmouseover="mudaFoto('./_imagens/fotos.png')" onmouseout="mudaFoto('./_imagens/contato.png') " ><a href="fotos.html">Fotos</a></li>
-        <li onmouseover="mudaFoto('./_imagens/multimidia.png')" onmouseout="mudaFoto('./_imagens/contato.png') " ><a href="multimidia.html">Multimídia</a></li>
-        <li onmouseover="mudaFoto('./_imagens/contato.png')" onmouseout="mudaFoto('./_imagens/contato.png') " ><a href="fale-conosco.html">Fale conosco</a></li>
+        <li onmouseover="mudaFoto('imagens/home.png')" onmouseout="mudaFoto('imagens/contato.png') " ><a href="index.html">Home</a></li>
+        <li onmouseover="mudaFoto('imagens/especificacoes.png')" onmouseout="mudaFoto('imagens/contato.png') " ><a href="specs.html">Especificações</a></li>
+        <li onmouseover="mudaFoto('imagens/fotos.png')" onmouseout="mudaFoto('imagens/contato.png') " ><a href="fotos.html">Fotos</a></li>
+        <li onmouseover="mudaFoto('imagens/multimidia.png')" onmouseout="mudaFoto('imagens/contato.png') " ><a href="multimidia.html">Multimídia</a></li>
+        <li onmouseover="mudaFoto('imagens/contato.png')" onmouseout="mudaFoto('imagens/contato.png') " ><a href="fale-conosco.html">Fale conosco</a></li>
     </ul>
     </nav>
 </header>
@@ -42,7 +42,7 @@
     <hgroup>
     <h3>Fale connosco > &nbsp; Contacto</h3>
     <h1>Formulario de contacto</h1>
-    <h2>por Singelo Dux</h2>
+	<h2>por <a href="testeJS.html">Singelo Dux</a></h2>
     <h3 class="direita">Actualizado em 01/Julho/2018</h3>
     </hgroup>   
 </header>
@@ -71,10 +71,10 @@
         <p><label for="cProv">Provincia:</label>
             <select name="tProv" id="cProv" >
                <optgroup label="Zona Sul">
-                    <option value="Mpt">Maputo</option>
-                    <option value="MPT C">Maputo Cidade</option>
+                    <option value="MTL" selected>Maputo Provincia</option>
+                    <option value="MPT">Maputo Cidade</option>
                     <option>Gaza</option>
-                    <option selected>Inhambane</option>
+                    <option >Inhambane</option>
                 </optgroup >
 
                 <optgroup label="Zona Centro">
@@ -113,14 +113,14 @@
         <p><input type="checkbox" name="tPed" id="cPed" checked>
     <label for="cPed">Gostaria de adquirir um Google Glass quando disponível</label></p>
     <p><label for="cCor">Cor:</label>
-        <input type="color" name="tCor" id="cCor" value="#ff00ff" ></p>
+        <input type="color" name="tCor" id="cCor" value="#000" ></p>
     <p><label for="cQtd">Quantidade:</label>
         <input type="number" name="tQtd" id="cQtd" min="1" max="10"></p>
     <p><label for="cTot">Preço Total:</label>
         <input type="text" name="tTot" id="cTot" size="8" readonly placeholder="Total a pagar">Mt</p>
     </fieldset>
 
-    <input type="image" src="./_imagens/botao-enviar.png" name="tEnviar"/>
+    <input type="image" src="imagens/botao-enviar.png" name="tEnviar"/>
     <br/>
 
 </form>

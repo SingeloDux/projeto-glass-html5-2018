@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Lampadas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .lampada-container {
+            text-align: center;
+            width: 30%;
+            min-width: 250px;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+        .backhome a {
+            text-decoration: none;
+        }
+    </style>
+    <script>
+        // Versão 1 - Funções simples de ligar/desligar/quebrar
+        function acendeLampada() {
+            document.getElementById("luz1").src = "imagens/lampada-acesa.jpg";
+        }
+
+        function apagaLampada() {
+            document.getElementById("luz1").src = "imagens/lampada-apagada.jpg";
+        }
+
+        function quebraLampada() {
+            document.getElementById("luz1").src = "imagens/lampada-quebrada.jpg";
+        }
+
+        // Versão 2 - Controle de estados com variáveis e reparo
+        var quebrada2 = false;
+
+        function mudaLampada2(tipo) {
+            var luz2 = document.getElementById("luz2");
+
+            if (quebrada2) {
+                // Se já estiver quebrada, volta ao estado apagada
+                luz2.src = "imagens/lampada-apagada.jpg";
+                quebrada2 = false;
+            } else {
+                // Se não estiver quebrada, fica quebrada
+                luz2.src = "imagens/lampada-quebrada.jpg";
+                quebrada2 = true;
+            }
+        }
+
+        // Funções para os efeitos de onmousemove e onmouseout
+        function acendeLampada2() {
+            if (!quebrada2) {
+                document.getElementById("luz2").src = "imagens/lampada-acesa.jpg";
+            }
+        }
+
+        function apagaLampada2() {
+            if (!quebrada2) {
+                document.getElementById("luz2").src = "imagens/lampada-apagada.jpg";
+            }
+        }
+
+        // Versão 3 - Controle com string no nome da imagem
+        var quebrada3 = false;
+
+        function mudaLampada3(tipo) {
+            if (!quebrada3) {
+                document.getElementById("luz3").src = "imagens/" + tipo + ".jpg";
+                if (tipo == 'lampada-quebrada') {
+                    quebrada3 = true;
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1> PARABÉNS, VOCÊ ACHOU O EASTER EGG DOS MEUS TESTES DE JAVASCRIPT </h1>
+    
+    <!-- Versão 1 -->
+    <div class="lampada-container">
+        <h1>Versão 1</h1>
+        <img src="imagens/lampada-apagada.jpg" id="luz1" onmousemove="acendeLampada()" onmouseout="apagaLampada()" onclick="quebraLampada()">
+        <p>Lâmpada mágica: inquebrável!</p>
+    </div>
+
+    <!-- Versão 2 -->
+    <div class="lampada-container">
+        <h1>Versão 2</h1>
+        <img src="imagens/lampada-apagada.jpg" id="luz2" 
+            onmousemove="acendeLampada2()" 
+            onmouseout="apagaLampada2()" 
+            onclick="mudaLampada2()">
+        <p>Quebrável e reparável!</p>
+    </div>
+
+    <!-- Versão 3 -->
+    <div class="lampada-container">
+        <h1>Versão 3</h1>
+        <img src="imagens/lampada-apagada.jpg" id="luz3" 
+            onmouseout="mudaLampada3('lampada-apagada')" 
+            onmousemove="mudaLampada3('lampada-acesa')" 
+            onclick="mudaLampada3('lampada-quebrada')">
+        <p>Quebrado para sempre!</p>
+    </div>
+
+	<p class="backhome"><a href="index.html">By Singelo Dux</a></p>
+
+</body>
+</html>
